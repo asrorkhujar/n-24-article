@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Rubik", "Arial", sans-serif;
+}
+
+
+.contianer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1240px;
+
+}
+
+.left-part {
+    width: 790px;
+}
+
+.left-header {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.prezident {
+    width: 790px;
+    height: 379px;
+    margin-top: 15px;
+}
+
+.left-news-content {}
+
+.second-text-bolder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.text-italic-bold {
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.popular-list {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.popular-list a {
+    text-decoration: none;
+
+}
+
+.hashtags a {
+    text-decoration: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #28508E;
+}
+
+.hashtags ul {
+    list-style: none;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.hashtags li {
+    margin-right: 10px;
+}
+
+.right-part {
+    width: 386px;
+    margin-left: 20px;
+}
+
+
+.main-container {
+    display: flex;
+}
+
+.ucel-photo {
+    width: 386px;
+    height: 477px;
+}
+
+
+.top-left-content time::before {
+    flex-shrink: 0;
+    width: 18px;
+    height: 20px;
+    content: "";
+    background-image: url("../images/calendar.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+
+.popular-news {
+    background-color: #F6F6F9;
+    padding: 10px 16px 0px 16px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.popular-news h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    margin-bottom: 0;
+}
+
+
+h3 {
+    margin-top: 0;
+}
+
+.border {
+    border-bottom: 4px solid #E4E4E4;
+    margin-bottom: 18px;
+}
+
+.popular-list-content {
+    padding: 18px 0;
+
+}
+
+.popular-list-content a {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.border {
+    margin-bottom: 0;
+}
+
+.left-part {
+    border-bottom: 2px solid #EBEBEB;
+}
+
+.last-news-head {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.last-news {
+    display: flex;
+    width: 1200px;
+    margin: 0;
+}
+
+.last-news-text h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.last-news-sections {
+    margin: 10px 20px 35px 0;
+}
+
+.last-news-imgs {
+    width: 386px;
+    height: 190px;
+    border-radius: 5px;
+    margin-bottom: 11px;
+}
+
+.last-news-text {
+    width: 380px;
+    height: 42px;
+    margin-bottom: 110px;
+
+
+}
+
+.lastt {
+    margin-right: 0;
+}
+
+time {
+    display: block;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+    margin-top: 10px;
+}
